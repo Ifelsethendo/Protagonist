@@ -1,0 +1,126 @@
+-- livecode script format produced by script handler OutputArraysToScriptFormat
+-- this dynamically loads into the editor and sets up 
+-- a custom property array database
+-- Sunday, January 8, 2023 6:22 PM
+-- Category: Location_L
+
+set the customPropertySet of this stack to Location_L
+put the Location_L of this stack into tArray
+
+-- image: 0001_Alley.png
+put ThemeArray["0001_Alley"] into currentImageArray
+put tArray["Alley"] into ThemeArray
+put currentImageArray["6"] into currentAltArray
+put "0001_Alley" into currentAltArray["Image"]
+put "" into currentAltArray["Notes"]
+put "Dumpsters and loose debris clog this atery and portends of further corruption." into currentAltArray["Description"]
+put "Trash filled alley" into currentAltArray["Title"]
+put currentAltArray into currentImageArray["6"]
+put currentImageArray into ThemeArray["0001_Alley"]
+put ThemeArray into tArray["Alley"]
+set the Location_L of this stack to tArray
+
+
+put currentImageArray["2"] into currentAltArray
+put "0001_Alley" into currentAltArray["Image"]
+put "" into currentAltArray["Notes"]
+put "Fire in the area has soiled  the air and  compromised visibility here." into currentAltArray["Description"]
+put "Smoke filled alley" into currentAltArray["Title"]
+put currentAltArray into currentImageArray["2"]
+put currentImageArray into ThemeArray["0001_Alley"]
+put ThemeArray into tArray["Alley"]
+set the Location_L of this stack to tArray
+
+
+put currentImageArray["3"] into currentAltArray
+put "0001_Alley" into currentAltArray["Image"]
+put "" into currentAltArray["Notes"]
+put "Hot pipes eject scalding steam that causing a hazardous  passage with poor visibility." into currentAltArray["Description"]
+put "Steam jet alley" into currentAltArray["Title"]
+put currentAltArray into currentImageArray["3"]
+put currentImageArray into ThemeArray["0001_Alley"]
+put ThemeArray into tArray["Alley"]
+set the Location_L of this stack to tArray
+
+
+put currentImageArray["5"] into currentAltArray
+put "0001_Alley" into currentAltArray["Image"]
+put "" into currentAltArray["Notes"]
+put "Every step forward into this passage is deeper into  acutely oppressive gloom and isolation." into currentAltArray["Description"]
+put "Shadow blotted alley" into currentAltArray["Title"]
+put currentAltArray into currentImageArray["5"]
+put currentImageArray into ThemeArray["0001_Alley"]
+put ThemeArray into tArray["Alley"]
+set the Location_L of this stack to tArray
+
+
+put currentImageArray["1"] into currentAltArray
+put "0001_Alley" into currentAltArray["Image"]
+put "" into currentAltArray["Notes"]
+put "A recent building collapse has left traversal of this alleyway complicated with choking dust." into currentAltArray["Description"]
+put "Dust choked alley" into currentAltArray["Title"]
+put currentAltArray into currentImageArray["1"]
+put currentImageArray into ThemeArray["0001_Alley"]
+put ThemeArray into tArray["Alley"]
+set the Location_L of this stack to tArray
+
+
+put currentImageArray["4"] into currentAltArray
+put "0001_Alley" into currentAltArray["Image"]
+put "" into currentAltArray["Notes"]
+put "A nebulous and unnatural mist obscures the length of this alley." into currentAltArray["Description"]
+put "Mist shrouded alley" into currentAltArray["Title"]
+put currentAltArray into currentImageArray["4"]
+put currentImageArray into ThemeArray["0001_Alley"]
+put ThemeArray into tArray["Alley"]
+set the Location_L of this stack to tArray
+
+
+put currentImageArray["7"] into currentAltArray
+put "0001_Alley" into currentAltArray["Image"]
+put "" into currentAltArray["Notes"]
+put "" into currentAltArray["Description"]
+put "" into currentAltArray["Title"]
+put currentAltArray into currentImageArray["7"]
+put currentImageArray into ThemeArray["0001_Alley"]
+put ThemeArray into tArray["Alley"]
+set the Location_L of this stack to tArray
+
+
+
+
+set the customPropertySet of this stack to empty
+-- image: 0001_Apartment.png
+put ThemeArray["0001_Apartment"] into currentImageArray
+put tArray["Apartment"] into ThemeArray
+put currentImageArray["1"] into currentAltArray
+put "0001_Apartment" into currentAltArray["Image"]
+put "" into currentAltArray["Notes"]
+put "Broken windows and dark gaping doorways indicate long neglect" into currentAltArray["Description"]
+put "Decaying old apartment building" into currentAltArray["Title"]
+put currentAltArray into currentImageArray["1"]
+put currentImageArray into ThemeArray["0001_Apartment"]
+put ThemeArray into tArray["Apartment"]
+set the Location_L of this stack to tArray
+
+
+
+
+set the customPropertySet of this stack to empty
+-- image: 0001_Arena.png
+put ThemeArray["0001_Arena"] into currentImageArray
+put tArray["Arena"] into ThemeArray
+put currentImageArray["1"] into currentAltArray
+put "0001_Arena" into currentAltArray["Image"]
+put "" into currentAltArray["Notes"]
+put "This concrete shell is only the playground of degenerates now" into currentAltArray["Description"]
+put "Old Arena" into currentAltArray["Title"]
+put currentAltArray into currentImageArray["1"]
+put currentImageArray into ThemeArray["0001_Arena"]
+put ThemeArray into tArray["Arena"]
+set the Location_L of this stack to tArray
+
+
+
+
+set the customPropertySet of this stack to empty-- end of script 

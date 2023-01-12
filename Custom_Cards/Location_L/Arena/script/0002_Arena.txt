@@ -1,0 +1,103 @@
+set the customPropertySet of this stack to Location_L
+put the Location_L of this stack into tArray
+put ThemeArray["0001_Alley"] into currentImageArray
+put tArray["Alley"] into ThemeArray
+put currentImageArray["2"] into currentAltArray
+put "0001_Alley" into currentAltArray["Image"]
+put "" into currentAltArray["Notes"]
+put "" into currentAltArray["Description"]
+put "def" into currentAltArray["Title"]
+put currentAltArray into currentImageArray["2"]
+put currentImageArray into ThemeArray["0001_Alley"]
+ put ThemeArray into tArray["Alley"]
+set the Location_L of this stack to tArray
+put currentImageArray["3"] into currentAltArray
+put "0001_Alley" into currentAltArray["Image"]
+put "" into currentAltArray["Notes"]
+put "" into currentAltArray["Description"]
+put "ghj" into currentAltArray["Title"]
+put currentAltArray into currentImageArray["3"]
+put currentImageArray into ThemeArray["0001_Alley"]
+ put ThemeArray into tArray["Alley"]
+set the Location_L of this stack to tArray
+put currentImageArray["1"] into currentAltArray
+put "0001_Alley" into currentAltArray["Image"]
+put "" into currentAltArray["Notes"]
+put "" into currentAltArray["Description"]
+put "abc" into currentAltArray["Title"]
+put currentAltArray into currentImageArray["1"]
+put currentImageArray into ThemeArray["0001_Alley"]
+ put ThemeArray into tArray["Alley"]
+set the Location_L of this stack to tArray
+set the customPropertySet of this stack to empty
+put ThemeArray["0001_Apartment"] into currentImageArray
+put tArray["Apartment"] into ThemeArray
+put currentImageArray["2"] into currentAltArray
+put "0001_Apartment" into currentAltArray["Image"]
+put "" into currentAltArray["Notes"]
+put "" into currentAltArray["Description"]
+put "MENT" into currentAltArray["Title"]
+put currentAltArray into currentImageArray["2"]
+put currentImageArray into ThemeArray["0001_Apartment"]
+ put ThemeArray into tArray["Apartment"]
+set the Location_L of this stack to tArray
+put currentImageArray["3"] into currentAltArray
+put "0001_Apartment" into currentAltArray["Image"]
+put "" into currentAltArray["Notes"]
+put "" into currentAltArray["Description"]
+put "APT" into currentAltArray["Title"]
+put currentAltArray into currentImageArray["3"]
+put currentImageArray into ThemeArray["0001_Apartment"]
+ put ThemeArray into tArray["Apartment"]
+set the Location_L of this stack to tArray
+put currentImageArray["1"] into currentAltArray
+put "0001_Apartment" into currentAltArray["Image"]
+put "" into currentAltArray["Notes"]
+put "" into currentAltArray["Description"]
+put "PART" into currentAltArray["Title"]
+put currentAltArray into currentImageArray["1"]
+put currentImageArray into ThemeArray["0001_Apartment"]
+ put ThemeArray into tArray["Apartment"]
+set the Location_L of this stack to tArray
+set the customPropertySet of this stack to empty
+put ThemeArray["0001_Arena"] into currentImageArray
+put tArray["Arena"] into ThemeArray
+put currentImageArray["1"] into currentAltArray
+put "0001_Arena" into currentAltArray["Image"]
+put "" into currentAltArray["Notes"]
+put "Now a playground for urban miscreants." into currentAltArray["Description"]
+put "Abandoned Arena" into currentAltArray["Title"]
+put currentAltArray into currentImageArray["1"]
+put currentImageArray into ThemeArray["0001_Arena"]
+ put ThemeArray into tArray["Arena"]
+set the Location_L of this stack to tArray
+put currentImageArray["2"] into currentAltArray
+put "0001_Arena" into currentAltArray["Image"]
+put "" into currentAltArray["Notes"]
+put "Hunter and prey is the only game played here now. " into currentAltArray["Description"]
+put "Abandoned Arena" into currentAltArray["Title"]
+put currentAltArray into currentImageArray["2"]
+put currentImageArray into ThemeArray["0001_Arena"]
+ put ThemeArray into tArray["Arena"]
+set the Location_L of this stack to tArray
+put ThemeArray["0002_Arena"] into currentImageArray
+put tArray["Arena"] into ThemeArray
+put currentImageArray["2"] into currentAltArray
+put "0002_Arena" into currentAltArray["Image"]
+put "" into currentAltArray["Notes"]
+put "Water logged after the storm, it echoes of dripping water and rats." into currentAltArray["Description"]
+put "Abandoned Arena" into currentAltArray["Title"]
+put currentAltArray into currentImageArray["2"]
+put currentImageArray into ThemeArray["0002_Arena"]
+ put ThemeArray into tArray["Arena"]
+set the Location_L of this stack to tArray
+put currentImageArray["1"] into currentAltArray
+put "0002_Arena" into currentAltArray["Image"]
+put "" into currentAltArray["Notes"]
+put "Whispers and shuffling echo across the vast arena." into currentAltArray["Description"]
+put "Abandoned Arena" into currentAltArray["Title"]
+put currentAltArray into currentImageArray["1"]
+put currentImageArray into ThemeArray["0002_Arena"]
+ put ThemeArray into tArray["Arena"]
+set the Location_L of this stack to tArray
+set the customPropertySet of this stack to empty
