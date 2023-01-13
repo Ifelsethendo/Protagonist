@@ -1,0 +1,36 @@
+-- livecode script format produced by script handler OutputArraysToScriptFormat
+-- this dynamically loads into the editor and sets up 
+-- a custom property array database
+-- Thursday, January 12, 2023 6:22 PM
+-- Category: Location_L
+-- Theme: PovertyRow
+
+set the customPropertySet of this stack to Location_L
+set the Location_L of this stack to categoryArray
+
+put categoryArray["PovertyRow"] into ThemeArray
+-- image: 0001_PovertyRow.png
+put ThemeArray["0001_PovertyRow"] into currentImageArray
+put currentImageArray["1"] into currentAltArray
+put "PovertyRow" into currentAltArray["Title"]
+put "A run-down and neglected area, where the houses are dilapidated and the streets are potholed and the air is heavy with the weight of abandonment." into currentAltArray["Description"]
+put currentAltArray into currentImageArray["1"]
+put currentImageArray into ThemeArray["0001_PovertyRow"]
+put ThemeArray into categoryArray["PovertyRow"]
+set the Location_L of this stack to categoryArray
+
+
+
+put currentImageArray["2"] into currentAltArray
+put "PovertyRow" into currentAltArray["Title"]
+put "A run-down and dilapidated neighborhood, filled with crumbling buildings and forgotten streets, or where the spirits of the poor and downtrodden linger and haunt the living." into currentAltArray["Description"]
+put currentAltArray into currentImageArray["2"]
+put currentImageArray into ThemeArray["0001_PovertyRow"]
+put ThemeArray into categoryArray["PovertyRow"]
+set the Location_L of this stack to categoryArray
+
+
+
+
+set the customPropertySet of this stack to empty
+-- end of script @ PovertyRow

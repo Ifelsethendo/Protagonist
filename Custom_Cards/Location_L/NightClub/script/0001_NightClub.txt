@@ -1,0 +1,56 @@
+-- livecode script format produced by script handler OutputArraysToScriptFormat
+-- this dynamically loads into the editor and sets up 
+-- a custom property array database
+-- Thursday, January 12, 2023 6:22 PM
+-- Category: Location_L
+-- Theme: NightClub
+
+set the customPropertySet of this stack to Location_L
+set the Location_L of this stack to categoryArray
+
+put categoryArray["NightClub"] into ThemeArray
+-- image: 0001_NightClub.png
+put ThemeArray["0001_NightClub"] into currentImageArray
+put currentImageArray["1"] into currentAltArray
+put "Nightclub" into currentAltArray["Title"]
+put "A cramped and dingy establishment, where music and alcohol flow late into the night, where the floors are sticky and the air is thick with the stench of smoke and decay." into currentAltArray["Description"]
+put currentAltArray into currentImageArray["1"]
+put currentImageArray into ThemeArray["0001_NightClub"]
+put ThemeArray into categoryArray["NightClub"]
+set the Location_L of this stack to categoryArray
+
+
+
+put currentImageArray["2"] into currentAltArray
+put "Nightclub" into currentAltArray["Title"]
+put "A bustling and lively establishment, offering music and entertainment to revelers, or where the ghosts of former patrons linger and haunt the dancefloor." into currentAltArray["Description"]
+put currentAltArray into currentImageArray["2"]
+put currentImageArray into ThemeArray["0001_NightClub"]
+put ThemeArray into categoryArray["NightClub"]
+set the Location_L of this stack to categoryArray
+
+
+
+put currentImageArray["3"] into currentAltArray
+put "Nightclub" into currentAltArray["Title"]
+put "A cramped and dingy establishment, where music and alcohol flow late into the night, where the floors are sticky and the air is thick with the stench of smoke and decay." into currentAltArray["Description"]
+put currentAltArray into currentImageArray["3"]
+put currentImageArray into ThemeArray["0001_NightClub"]
+put ThemeArray into categoryArray["NightClub"]
+set the Location_L of this stack to categoryArray
+
+
+
+put currentImageArray["4"] into currentAltArray
+put "Nightclub" into currentAltArray["Title"]
+put "A bustling and lively establishment, offering music and entertainment to revelers, or where the ghosts of former patrons linger and haunt the dancefloor." into currentAltArray["Description"]
+put currentAltArray into currentImageArray["4"]
+put currentImageArray into ThemeArray["0001_NightClub"]
+put ThemeArray into categoryArray["NightClub"]
+set the Location_L of this stack to categoryArray
+
+
+
+
+set the customPropertySet of this stack to empty
+-- end of script @ NightClub

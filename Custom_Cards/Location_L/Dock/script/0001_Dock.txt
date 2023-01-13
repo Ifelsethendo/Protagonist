@@ -1,0 +1,76 @@
+-- livecode script format produced by script handler OutputArraysToScriptFormat
+-- this dynamically loads into the editor and sets up 
+-- a custom property array database
+-- Thursday, January 12, 2023 6:22 PM
+-- Category: Location_L
+-- Theme: Dock
+
+set the customPropertySet of this stack to Location_L
+set the Location_L of this stack to categoryArray
+
+put categoryArray["Dock"] into ThemeArray
+-- image: 0001_Dock.png
+put ThemeArray["0001_Dock"] into currentImageArray
+put currentImageArray["5"] into currentAltArray
+put "Dock" into currentAltArray["Title"]
+put "A bustling hub of activity, where ships and boats come and go, carrying goods and people to and fro, or where ghostly vessels arrive and depart in the dead of night." into currentAltArray["Description"]
+put currentAltArray into currentImageArray["5"]
+put currentImageArray into ThemeArray["0001_Dock"]
+put ThemeArray into categoryArray["Dock"]
+set the Location_L of this stack to categoryArray
+
+
+
+put currentImageArray["6"] into currentAltArray
+put "Dock" into currentAltArray["Title"]
+put "A bustling hub of activity, where ships and boats come and go, carrying goods and people to and fro." into currentAltArray["Description"]
+put currentAltArray into currentImageArray["6"]
+put currentImageArray into ThemeArray["0001_Dock"]
+put ThemeArray into categoryArray["Dock"]
+set the Location_L of this stack to categoryArray
+
+
+
+put currentImageArray["1"] into currentAltArray
+put "Dock" into currentAltArray["Title"]
+put "A long and sprawling structure, extending out into the water, where the wood is splintered and the ropes are frayed and the air is heavy with the weight of despair." into currentAltArray["Description"]
+put currentAltArray into currentImageArray["1"]
+put currentImageArray into ThemeArray["0001_Dock"]
+put ThemeArray into categoryArray["Dock"]
+set the Location_L of this stack to categoryArray
+
+
+
+put currentImageArray["2"] into currentAltArray
+put "Dock" into currentAltArray["Title"]
+put "A bustling hub of activity, where ships and boats come and go, carrying goods and people to and fro, or where ghostly vessels arrive and depart in the dead of night." into currentAltArray["Description"]
+put currentAltArray into currentImageArray["2"]
+put currentImageArray into ThemeArray["0001_Dock"]
+put ThemeArray into categoryArray["Dock"]
+set the Location_L of this stack to categoryArray
+
+
+
+put currentImageArray["3"] into currentAltArray
+put "Dock" into currentAltArray["Title"]
+put "A bustling hub of activity, where ships and boats come and go, carrying goods and people to and fro." into currentAltArray["Description"]
+put currentAltArray into currentImageArray["3"]
+put currentImageArray into ThemeArray["0001_Dock"]
+put ThemeArray into categoryArray["Dock"]
+set the Location_L of this stack to categoryArray
+
+
+
+put currentImageArray["4"] into currentAltArray
+put "Dock" into currentAltArray["Title"]
+put "A long and sprawling structure, extending out into the water, where the wood is splintered and the ropes are frayed and the air is heavy with the weight of despair." into currentAltArray["Description"]
+put currentAltArray into currentImageArray["4"]
+put currentImageArray into ThemeArray["0001_Dock"]
+put ThemeArray into categoryArray["Dock"]
+set the Location_L of this stack to categoryArray
+
+
+
+
+set the customPropertySet of this stack to empty
+-- end of script @ Dock

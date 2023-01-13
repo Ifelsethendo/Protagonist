@@ -1,0 +1,36 @@
+-- livecode script format produced by script handler OutputArraysToScriptFormat
+-- this dynamically loads into the editor and sets up 
+-- a custom property array database
+-- Thursday, January 12, 2023 6:22 PM
+-- Category: Location_L
+-- Theme: TrainTracks
+
+set the customPropertySet of this stack to Location_L
+set the Location_L of this stack to categoryArray
+
+put categoryArray["TrainTracks"] into ThemeArray
+-- image: 0001_TrainTracks.png
+put ThemeArray["0001_TrainTracks"] into currentImageArray
+put currentImageArray["1"] into currentAltArray
+put "TrainTracks" into currentAltArray["Title"]
+put "A network of metal rails, used for the transportation of goods and people, where the ties are rotting and the air is thick with the stench of neglect." into currentAltArray["Description"]
+put currentAltArray into currentImageArray["1"]
+put currentImageArray into ThemeArray["0001_TrainTracks"]
+put ThemeArray into categoryArray["TrainTracks"]
+set the Location_L of this stack to categoryArray
+
+
+
+put currentImageArray["2"] into currentAltArray
+put "TrainTracks" into currentAltArray["Title"]
+put "A network of steel rails, used to transport goods and people to their destinations, or where the ghosts of derailed trains and their passengers linger and haunt the living." into currentAltArray["Description"]
+put currentAltArray into currentImageArray["2"]
+put currentImageArray into ThemeArray["0001_TrainTracks"]
+put ThemeArray into categoryArray["TrainTracks"]
+set the Location_L of this stack to categoryArray
+
+
+
+
+set the customPropertySet of this stack to empty
+-- end of script @ TrainTracks

@@ -1,0 +1,56 @@
+-- livecode script format produced by script handler OutputArraysToScriptFormat
+-- this dynamically loads into the editor and sets up 
+-- a custom property array database
+-- Thursday, January 12, 2023 6:22 PM
+-- Category: Location_L
+-- Theme: Temple
+
+set the customPropertySet of this stack to Location_L
+set the Location_L of this stack to categoryArray
+
+put categoryArray["Temple"] into ThemeArray
+-- image: 0001_Temple.png
+put ThemeArray["0001_Temple"] into currentImageArray
+put currentImageArray["1"] into currentAltArray
+put "Temple" into currentAltArray["Title"]
+put "A grand and ornate place of worship, where the walls are crumbling and the air is thick with the stench of decay." into currentAltArray["Description"]
+put currentAltArray into currentImageArray["1"]
+put currentImageArray into ThemeArray["0001_Temple"]
+put ThemeArray into categoryArray["Temple"]
+set the Location_L of this stack to categoryArray
+
+
+
+put currentImageArray["2"] into currentAltArray
+put "Temple" into currentAltArray["Title"]
+put "A sacred and holy place, dedicated to the worship of gods and deities, or where the spirits of former worshippers and sacrifices linger and haunt the living." into currentAltArray["Description"]
+put currentAltArray into currentImageArray["2"]
+put currentImageArray into ThemeArray["0001_Temple"]
+put ThemeArray into categoryArray["Temple"]
+set the Location_L of this stack to categoryArray
+
+
+
+put currentImageArray["3"] into currentAltArray
+put "Temple" into currentAltArray["Title"]
+put "A grand and ornate place of worship, where the walls are crumbling and the air is thick with the stench of decay." into currentAltArray["Description"]
+put currentAltArray into currentImageArray["3"]
+put currentImageArray into ThemeArray["0001_Temple"]
+put ThemeArray into categoryArray["Temple"]
+set the Location_L of this stack to categoryArray
+
+
+
+put currentImageArray["4"] into currentAltArray
+put "Temple" into currentAltArray["Title"]
+put "A sacred and holy place, dedicated to the worship of gods and deities, or where the spirits of former worshippers and sacrifices linger and haunt the living." into currentAltArray["Description"]
+put currentAltArray into currentImageArray["4"]
+put currentImageArray into ThemeArray["0001_Temple"]
+put ThemeArray into categoryArray["Temple"]
+set the Location_L of this stack to categoryArray
+
+
+
+
+set the customPropertySet of this stack to empty
+-- end of script @ Temple

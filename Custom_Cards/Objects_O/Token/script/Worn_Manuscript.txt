@@ -1,0 +1,27 @@
+-- livecode script format produced by script handler OutputArraysToScriptFormat
+-- this dynamically loads into the editor and sets up 
+-- a custom property array database
+-- Thursday, January 12, 2023 5:52 PM
+-- Category: Objects_O
+-- Theme: Token
+
+set the customPropertySet of this stack to Objects_O
+put the Objects_O of this stack into categoryArray
+
+put categoryArray["Token"] into ThemeArray
+-- image: Worn_Manuscript.png
+put ThemeArray["Worn_Manuscript"] into currentImageArray
+put currentImageArray["1"] into currentAltArray
+put "Worn_Manuscript" into currentAltArray["Image"]
+put "A water sodden, torn, and moldy manuscript " into currentAltArray["Description"]
+put "Manuscript" into currentAltArray["Title"]
+put currentAltArray into currentImageArray["1"]
+put currentImageArray into ThemeArray["Worn_Manuscript"]
+put ThemeArray into categoryArray["Token"]
+set the Objects_O of this stack to categoryArray
+
+
+
+
+set the customPropertySet of this stack to empty
+-- end of script @ Token

@@ -1,0 +1,36 @@
+-- livecode script format produced by script handler OutputArraysToScriptFormat
+-- this dynamically loads into the editor and sets up 
+-- a custom property array database
+-- Thursday, January 12, 2023 6:22 PM
+-- Category: Location_L
+-- Theme: SacrificialAltar
+
+set the customPropertySet of this stack to Location_L
+set the Location_L of this stack to categoryArray
+
+put categoryArray["SacrificialAltar"] into ThemeArray
+-- image: 0001_SacrificialAltar.png
+put ThemeArray["0001_SacrificialAltar"] into currentImageArray
+put currentImageArray["1"] into currentAltArray
+put "SacrificialAltar" into currentAltArray["Title"]
+put "A sacred and ancient place, where the blood of sacrifices was once spilled in the name of a deity or deity, where the air is thick with the stench of greed and corruption." into currentAltArray["Description"]
+put currentAltArray into currentImageArray["1"]
+put currentImageArray into ThemeArray["0001_SacrificialAltar"]
+put ThemeArray into categoryArray["SacrificialAltar"]
+set the Location_L of this stack to categoryArray
+
+
+
+put currentImageArray["2"] into currentAltArray
+put "SacrificialAltar" into currentAltArray["Title"]
+put "A sacred and holy place, used to perform ancient and forbidden rituals, or where the spirits of the sacrificed linger and haunt the living." into currentAltArray["Description"]
+put currentAltArray into currentImageArray["2"]
+put currentImageArray into ThemeArray["0001_SacrificialAltar"]
+put ThemeArray into categoryArray["SacrificialAltar"]
+set the Location_L of this stack to categoryArray
+
+
+
+
+set the customPropertySet of this stack to empty
+-- end of script @ SacrificialAltar

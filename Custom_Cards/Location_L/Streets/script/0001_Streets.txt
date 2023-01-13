@@ -1,0 +1,56 @@
+-- livecode script format produced by script handler OutputArraysToScriptFormat
+-- this dynamically loads into the editor and sets up 
+-- a custom property array database
+-- Thursday, January 12, 2023 6:22 PM
+-- Category: Location_L
+-- Theme: Streets
+
+set the customPropertySet of this stack to Location_L
+set the Location_L of this stack to categoryArray
+
+put categoryArray["Streets"] into ThemeArray
+-- image: 0001_Streets.png
+put ThemeArray["0001_Streets"] into currentImageArray
+put currentImageArray["1"] into currentAltArray
+put "Streets" into currentAltArray["Title"]
+put "A network of paved and unpaved pathways, used for travel and transportation, where the surfaces are pocked with holes and the air is heavy with the weight of abandonment." into currentAltArray["Description"]
+put currentAltArray into currentImageArray["1"]
+put currentImageArray into ThemeArray["0001_Streets"]
+put ThemeArray into categoryArray["Streets"]
+set the Location_L of this stack to categoryArray
+
+
+
+put currentImageArray["2"] into currentAltArray
+put "Streets" into currentAltArray["Title"]
+put "A bustling and crowded network of roads and intersections, forming the heart of the city, or where the spirits of former residents and visitors linger and haunt the living." into currentAltArray["Description"]
+put currentAltArray into currentImageArray["2"]
+put currentImageArray into ThemeArray["0001_Streets"]
+put ThemeArray into categoryArray["Streets"]
+set the Location_L of this stack to categoryArray
+
+
+
+put currentImageArray["3"] into currentAltArray
+put "Streets" into currentAltArray["Title"]
+put "A network of paved and unpaved pathways, used for travel and transportation, where the surfaces are pocked with holes and the air is heavy with the weight of abandonment." into currentAltArray["Description"]
+put currentAltArray into currentImageArray["3"]
+put currentImageArray into ThemeArray["0001_Streets"]
+put ThemeArray into categoryArray["Streets"]
+set the Location_L of this stack to categoryArray
+
+
+
+put currentImageArray["4"] into currentAltArray
+put "Streets" into currentAltArray["Title"]
+put "A bustling and crowded network of roads and intersections, forming the heart of the city, or where the spirits of former residents and visitors linger and haunt the living." into currentAltArray["Description"]
+put currentAltArray into currentImageArray["4"]
+put currentImageArray into ThemeArray["0001_Streets"]
+put ThemeArray into categoryArray["Streets"]
+set the Location_L of this stack to categoryArray
+
+
+
+
+set the customPropertySet of this stack to empty
+-- end of script @ Streets

@@ -1,0 +1,27 @@
+-- livecode script format produced by script handler OutputArraysToScriptFormat
+-- this dynamically loads into the editor and sets up 
+-- a custom property array database
+-- Thursday, January 12, 2023 5:52 PM
+-- Category: Objects_O
+-- Theme: Vehicle
+
+set the customPropertySet of this stack to Objects_O
+set the Objects_O of this stack to categoryArray
+
+put categoryArray["Vehicle"] into ThemeArray
+-- image: Baby_Carriage.png
+put ThemeArray["Baby_Carriage"] into currentImageArray
+put currentImageArray["1"] into currentAltArray
+put "Baby_Carriage" into currentAltArray["Image"]
+put "A lone baby carriage , why?" into currentAltArray["Description"]
+put "Baby Carriage" into currentAltArray["Title"]
+put currentAltArray into currentImageArray["1"]
+put currentImageArray into ThemeArray["Baby_Carriage"]
+put ThemeArray into categoryArray["Vehicle"]
+set the Objects_O of this stack to categoryArray
+
+
+
+
+set the customPropertySet of this stack to empty
+-- end of script @ Vehicle

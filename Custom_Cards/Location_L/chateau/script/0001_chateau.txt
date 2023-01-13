@@ -1,0 +1,56 @@
+-- livecode script format produced by script handler OutputArraysToScriptFormat
+-- this dynamically loads into the editor and sets up 
+-- a custom property array database
+-- Thursday, January 12, 2023 6:22 PM
+-- Category: Location_L
+-- Theme: chateau
+
+set the customPropertySet of this stack to Location_L
+set the Location_L of this stack to categoryArray
+
+put categoryArray["chateau"] into ThemeArray
+-- image: 0001_chateau.png
+put ThemeArray["0001_chateau"] into currentImageArray
+put currentImageArray["1"] into currentAltArray
+put "Chateau" into currentAltArray["Title"]
+put "A grand and luxurious mansion, once home to the wealthy and powerful, where the walls are crumbling and the windows are broken and the air is thick with the stench of decay." into currentAltArray["Description"]
+put currentAltArray into currentImageArray["1"]
+put currentImageArray into ThemeArray["0001_chateau"]
+put ThemeArray into categoryArray["chateau"]
+set the Location_L of this stack to categoryArray
+
+
+
+put currentImageArray["2"] into currentAltArray
+put "Chateau" into currentAltArray["Title"]
+put "A twisted and decrepit mansion, rumored to be inhabited by a mad nobleman who conducts twisted experiments in its shadowy halls." into currentAltArray["Description"]
+put currentAltArray into currentImageArray["2"]
+put currentImageArray into ThemeArray["0001_chateau"]
+put ThemeArray into categoryArray["chateau"]
+set the Location_L of this stack to categoryArray
+
+
+
+put currentImageArray["3"] into currentAltArray
+put "Chateau" into currentAltArray["Title"]
+put "A grand and luxurious mansion, once home to the wealthy and powerful, where the walls are crumbling and the windows are broken and the air is thick with the stench of decay." into currentAltArray["Description"]
+put currentAltArray into currentImageArray["3"]
+put currentImageArray into ThemeArray["0001_chateau"]
+put ThemeArray into categoryArray["chateau"]
+set the Location_L of this stack to categoryArray
+
+
+
+put currentImageArray["4"] into currentAltArray
+put "Chateau" into currentAltArray["Title"]
+put "A twisted and decrepit mansion, rumored to be inhabited by a mad nobleman who conducts twisted experiments in its shadowy halls." into currentAltArray["Description"]
+put currentAltArray into currentImageArray["4"]
+put currentImageArray into ThemeArray["0001_chateau"]
+put ThemeArray into categoryArray["chateau"]
+set the Location_L of this stack to categoryArray
+
+
+
+
+set the customPropertySet of this stack to empty
+-- end of script @ chateau

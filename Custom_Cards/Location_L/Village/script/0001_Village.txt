@@ -1,0 +1,56 @@
+-- livecode script format produced by script handler OutputArraysToScriptFormat
+-- this dynamically loads into the editor and sets up 
+-- a custom property array database
+-- Thursday, January 12, 2023 6:22 PM
+-- Category: Location_L
+-- Theme: Village
+
+set the customPropertySet of this stack to Location_L
+set the Location_L of this stack to categoryArray
+
+put categoryArray["Village"] into ThemeArray
+-- image: 0001_Village.png
+put ThemeArray["0001_Village"] into currentImageArray
+put currentImageArray["1"] into currentAltArray
+put "Village" into currentAltArray["Title"]
+put "A small and cramped community, where the houses are dilapidated and the streets are potholed and the air is thick with the stench of neglect." into currentAltArray["Description"]
+put currentAltArray into currentImageArray["1"]
+put currentImageArray into ThemeArray["0001_Village"]
+put ThemeArray into categoryArray["Village"]
+set the Location_L of this stack to categoryArray
+
+
+
+put currentImageArray["2"] into currentAltArray
+put "Village" into currentAltArray["Title"]
+put "A small and quaint community, filled with cozy and comfortable homes and the sounds of everyday life, or where the spirits of former residents linger and haunt the living." into currentAltArray["Description"]
+put currentAltArray into currentImageArray["2"]
+put currentImageArray into ThemeArray["0001_Village"]
+put ThemeArray into categoryArray["Village"]
+set the Location_L of this stack to categoryArray
+
+
+
+put currentImageArray["3"] into currentAltArray
+put "Village" into currentAltArray["Title"]
+put "A small and cramped community, where the houses are dilapidated and the streets are potholed and the air is thick with the stench of neglect." into currentAltArray["Description"]
+put currentAltArray into currentImageArray["3"]
+put currentImageArray into ThemeArray["0001_Village"]
+put ThemeArray into categoryArray["Village"]
+set the Location_L of this stack to categoryArray
+
+
+
+put currentImageArray["4"] into currentAltArray
+put "Village" into currentAltArray["Title"]
+put "A small and quaint community, filled with cozy and comfortable homes and the sounds of everyday life, or where the spirits of former residents linger and haunt the living." into currentAltArray["Description"]
+put currentAltArray into currentImageArray["4"]
+put currentImageArray into ThemeArray["0001_Village"]
+put ThemeArray into categoryArray["Village"]
+set the Location_L of this stack to categoryArray
+
+
+
+
+set the customPropertySet of this stack to empty
+-- end of script @ Village

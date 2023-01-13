@@ -1,0 +1,56 @@
+-- livecode script format produced by script handler OutputArraysToScriptFormat
+-- this dynamically loads into the editor and sets up 
+-- a custom property array database
+-- Thursday, January 12, 2023 6:22 PM
+-- Category: Location_L
+-- Theme: Toilet
+
+set the customPropertySet of this stack to Location_L
+set the Location_L of this stack to categoryArray
+
+put categoryArray["Toilet"] into ThemeArray
+-- image: 0001_Toilet.png
+put ThemeArray["0001_Toilet"] into currentImageArray
+put currentImageArray["1"] into currentAltArray
+put "Toilet" into currentAltArray["Title"]
+put "A small and utilitarian structure, used for the basic and necessary functions of life, where the air is heavy with the weight of abandonment." into currentAltArray["Description"]
+put currentAltArray into currentImageArray["1"]
+put currentImageArray into ThemeArray["0001_Toilet"]
+put ThemeArray into categoryArray["Toilet"]
+set the Location_L of this stack to categoryArray
+
+
+
+put currentImageArray["2"] into currentAltArray
+put "Toilet" into currentAltArray["Title"]
+put "A simple and utilitarian room, used for the basic and necessary functions of life, or where the spirits of former users linger and haunt the living." into currentAltArray["Description"]
+put currentAltArray into currentImageArray["2"]
+put currentImageArray into ThemeArray["0001_Toilet"]
+put ThemeArray into categoryArray["Toilet"]
+set the Location_L of this stack to categoryArray
+
+
+
+put currentImageArray["3"] into currentAltArray
+put "Toilet" into currentAltArray["Title"]
+put "A small and utilitarian structure, used for the basic and necessary functions of life, where the air is heavy with the weight of abandonment." into currentAltArray["Description"]
+put currentAltArray into currentImageArray["3"]
+put currentImageArray into ThemeArray["0001_Toilet"]
+put ThemeArray into categoryArray["Toilet"]
+set the Location_L of this stack to categoryArray
+
+
+
+put currentImageArray["4"] into currentAltArray
+put "Toilet" into currentAltArray["Title"]
+put "A simple and utilitarian room, used for the basic and necessary functions of life, or where the spirits of former users linger and haunt the living." into currentAltArray["Description"]
+put currentAltArray into currentImageArray["4"]
+put currentImageArray into ThemeArray["0001_Toilet"]
+put ThemeArray into categoryArray["Toilet"]
+set the Location_L of this stack to categoryArray
+
+
+
+
+set the customPropertySet of this stack to empty
+-- end of script @ Toilet

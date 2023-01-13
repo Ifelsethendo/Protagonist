@@ -1,0 +1,116 @@
+-- livecode script format produced by script handler OutputArraysToScriptFormat
+-- this dynamically loads into the editor and sets up 
+-- a custom property array database
+-- Thursday, January 12, 2023 6:22 PM
+-- Category: Location_L
+-- Theme: Crypt
+
+set the customPropertySet of this stack to Location_L
+set the Location_L of this stack to categoryArray
+
+put categoryArray["Crypt"] into ThemeArray
+-- image: 0001_Crypt.png
+put ThemeArray["0001_Crypt"] into currentImageArray
+put currentImageArray["8"] into currentAltArray
+put "Crypt" into currentAltArray["Title"]
+put "A hidden chamber of ancient knowledge, sealed away and guarded by powerful enchantments." into currentAltArray["Description"]
+put currentAltArray into currentImageArray["8"]
+put currentImageArray into ThemeArray["0001_Crypt"]
+put ThemeArray into categoryArray["Crypt"]
+set the Location_L of this stack to categoryArray
+
+
+
+put currentImageArray["9"] into currentAltArray
+put "Crypt" into currentAltArray["Title"]
+put "A hidden chamber beneath the church, used to entomb the remains of the deceased and keep their secrets safe." into currentAltArray["Description"]
+put currentAltArray into currentImageArray["9"]
+put currentImageArray into ThemeArray["0001_Crypt"]
+put ThemeArray into categoryArray["Crypt"]
+set the Location_L of this stack to categoryArray
+
+
+
+put currentImageArray["6"] into currentAltArray
+put "Crypt" into currentAltArray["Title"]
+put "A dark and cramped underground chamber, used for the interment of the dead, where the air is thick with the stench of decay and neglect." into currentAltArray["Description"]
+put currentAltArray into currentImageArray["6"]
+put currentImageArray into ThemeArray["0001_Crypt"]
+put ThemeArray into categoryArray["Crypt"]
+set the Location_L of this stack to categoryArray
+
+
+
+put currentImageArray["2"] into currentAltArray
+put "Crypt" into currentAltArray["Title"]
+put "A hidden chamber beneath the church, used to entomb the remains of the deceased and keep their secrets safe, or to hide forbidden knowledge and ancient evils." into currentAltArray["Description"]
+put currentAltArray into currentImageArray["2"]
+put currentImageArray into ThemeArray["0001_Crypt"]
+put ThemeArray into categoryArray["Crypt"]
+set the Location_L of this stack to categoryArray
+
+
+
+put currentImageArray["3"] into currentAltArray
+put "Crypt" into currentAltArray["Title"]
+put "A hidden chamber of ancient knowledge, sealed away and guarded by powerful enchantments." into currentAltArray["Description"]
+put currentAltArray into currentImageArray["3"]
+put currentImageArray into ThemeArray["0001_Crypt"]
+put ThemeArray into categoryArray["Crypt"]
+set the Location_L of this stack to categoryArray
+
+
+
+put currentImageArray["5"] into currentAltArray
+put "Crypt" into currentAltArray["Title"]
+put "A hidden chamber of unspeakable dread lies buried beneath the cemetery, its entrance guarded by ancient seals and forbidden knowledge. " into currentAltArray["Description"]
+put currentAltArray into currentImageArray["5"]
+put currentImageArray into ThemeArray["0001_Crypt"]
+put ThemeArray into categoryArray["Crypt"]
+set the Location_L of this stack to categoryArray
+
+
+
+put currentImageArray["1"] into currentAltArray
+put "Crypt" into currentAltArray["Title"]
+put "A dark and cramped underground chamber, used for the interment of the dead, where the air is thick with the stench of decay and neglect." into currentAltArray["Description"]
+put currentAltArray into currentImageArray["1"]
+put currentImageArray into ThemeArray["0001_Crypt"]
+put ThemeArray into categoryArray["Crypt"]
+set the Location_L of this stack to categoryArray
+
+
+
+put currentImageArray["4"] into currentAltArray
+put "Crypt" into currentAltArray["Title"]
+put "A hidden chamber beneath the church, used to entomb the remains of the deceased and keep their secrets safe." into currentAltArray["Description"]
+put currentAltArray into currentImageArray["4"]
+put currentImageArray into ThemeArray["0001_Crypt"]
+put ThemeArray into categoryArray["Crypt"]
+set the Location_L of this stack to categoryArray
+
+
+
+put currentImageArray["7"] into currentAltArray
+put "Crypt" into currentAltArray["Title"]
+put "A hidden chamber beneath the church, used to entomb the remains of the deceased and keep their secrets safe, or to hide forbidden knowledge and ancient evils." into currentAltArray["Description"]
+put currentAltArray into currentImageArray["7"]
+put currentImageArray into ThemeArray["0001_Crypt"]
+put ThemeArray into categoryArray["Crypt"]
+set the Location_L of this stack to categoryArray
+
+
+
+put currentImageArray["10"] into currentAltArray
+put "Crypt" into currentAltArray["Title"]
+put "A hidden chamber of unspeakable dread lies buried beneath the cemetery, its entrance guarded by ancient seals and forbidden knowledge. " into currentAltArray["Description"]
+put currentAltArray into currentImageArray["10"]
+put currentImageArray into ThemeArray["0001_Crypt"]
+put ThemeArray into categoryArray["Crypt"]
+set the Location_L of this stack to categoryArray
+
+
+
+
+set the customPropertySet of this stack to empty
+-- end of script @ Crypt

@@ -1,104 +1,76 @@
 -- livecode script format produced by script handler OutputArraysToScriptFormat
 -- this dynamically loads into the editor and sets up 
 -- a custom property array database
--- Friday, January 6, 2023 11:57 PM
+-- Thursday, January 12, 2023 6:22 PM
 -- Category: Location_L
+-- Theme: Forest
 
 set the customPropertySet of this stack to Location_L
-put the Location_L of this stack into tArray
+set the Location_L of this stack to categoryArray
 
--- image: 0001_Alley.png
-put ThemeArray["0001_Alley"] into currentImageArray
-put tArray["Alley"] into ThemeArray
-put currentImageArray["1"] into currentAltArray
-put "0001_Alley" into currentAltArray["Image"]
-put "" into currentAltArray["Notes"]
-put "" into currentAltArray["Description"]
-put "abc" into currentAltArray["Title"]
-put currentAltArray into currentImageArray["1"]
-put currentImageArray into ThemeArray["0001_Alley"]
-put ThemeArray into tArray["Alley"]
-set the Location_L of this stack to tArray
-
-
-put currentImageArray["2"] into currentAltArray
-put "0001_Alley" into currentAltArray["Image"]
-put "" into currentAltArray["Notes"]
-put "" into currentAltArray["Description"]
-put "def" into currentAltArray["Title"]
-put currentAltArray into currentImageArray["2"]
-put currentImageArray into ThemeArray["0001_Alley"]
-put ThemeArray into tArray["Alley"]
-set the Location_L of this stack to tArray
-
-
-put currentImageArray["3"] into currentAltArray
-put "0001_Alley" into currentAltArray["Image"]
-put "" into currentAltArray["Notes"]
-put "" into currentAltArray["Description"]
-put "ghj" into currentAltArray["Title"]
-put currentAltArray into currentImageArray["3"]
-put currentImageArray into ThemeArray["0001_Alley"]
-put ThemeArray into tArray["Alley"]
-set the Location_L of this stack to tArray
-
-
-
-
-set the customPropertySet of this stack to empty
--- image: 0001_Apartment.png
-put ThemeArray["0001_Apartment"] into currentImageArray
-put tArray["Apartment"] into ThemeArray
-put currentImageArray["2"] into currentAltArray
-put "0001_Apartment" into currentAltArray["Image"]
-put "" into currentAltArray["Notes"]
-put "" into currentAltArray["Description"]
-put "MENT" into currentAltArray["Title"]
-put currentAltArray into currentImageArray["2"]
-put currentImageArray into ThemeArray["0001_Apartment"]
-put ThemeArray into tArray["Apartment"]
-set the Location_L of this stack to tArray
-
-
-put currentImageArray["3"] into currentAltArray
-put "0001_Apartment" into currentAltArray["Image"]
-put "" into currentAltArray["Notes"]
-put "" into currentAltArray["Description"]
-put "APT" into currentAltArray["Title"]
-put currentAltArray into currentImageArray["3"]
-put currentImageArray into ThemeArray["0001_Apartment"]
-put ThemeArray into tArray["Apartment"]
-set the Location_L of this stack to tArray
-
-
-put currentImageArray["1"] into currentAltArray
-put "0001_Apartment" into currentAltArray["Image"]
-put "" into currentAltArray["Notes"]
-put "" into currentAltArray["Description"]
-put "PART" into currentAltArray["Title"]
-put currentAltArray into currentImageArray["1"]
-put currentImageArray into ThemeArray["0001_Apartment"]
-put ThemeArray into tArray["Apartment"]
-set the Location_L of this stack to tArray
-
-
-
-
-set the customPropertySet of this stack to empty
+put categoryArray["Forest"] into ThemeArray
 -- image: 0001_forest.png
 put ThemeArray["0001_forest"] into currentImageArray
-put tArray["Forest"] into ThemeArray
+put currentImageArray["5"] into currentAltArray
+put "Forest" into currentAltArray["Title"]
+put "A dense and lush wood, its trees and underbrush hiding secrets and dangers unknown, or where strange and malevolent creatures lurk in the shadows." into currentAltArray["Description"]
+put currentAltArray into currentImageArray["5"]
+put currentImageArray into ThemeArray["0001_forest"]
+put ThemeArray into categoryArray["Forest"]
+set the Location_L of this stack to categoryArray
+
+
+
+put currentImageArray["6"] into currentAltArray
+put "Forest" into currentAltArray["Title"]
+put "A dense and lush wood, its trees and underbrush hiding secrets and dangers unknown." into currentAltArray["Description"]
+put currentAltArray into currentImageArray["6"]
+put currentImageArray into ThemeArray["0001_forest"]
+put ThemeArray into categoryArray["Forest"]
+set the Location_L of this stack to categoryArray
+
+
+
 put currentImageArray["1"] into currentAltArray
-put "0001_forest" into currentAltArray["Image"]
-put "" into currentAltArray["Notes"]
-put "The  leaves crunch between your feet alerting anyone and anything of your presence " into currentAltArray["Description"]
-put "A leaf strewn path into the forest" into currentAltArray["Title"]
+put "Forest" into currentAltArray["Title"]
+put "A dense and tangled wilderness, where the trees are overgrown and the air is heavy with the weight of abandonment." into currentAltArray["Description"]
 put currentAltArray into currentImageArray["1"]
 put currentImageArray into ThemeArray["0001_forest"]
-put ThemeArray into tArray["Forest"]
-set the Location_L of this stack to tArray
+put ThemeArray into categoryArray["Forest"]
+set the Location_L of this stack to categoryArray
+
+
+
+put currentImageArray["2"] into currentAltArray
+put "Forest" into currentAltArray["Title"]
+put "A dense and lush wood, its trees and underbrush hiding secrets and dangers unknown, or where strange and malevolent creatures lurk in the shadows." into currentAltArray["Description"]
+put currentAltArray into currentImageArray["2"]
+put currentImageArray into ThemeArray["0001_forest"]
+put ThemeArray into categoryArray["Forest"]
+set the Location_L of this stack to categoryArray
+
+
+
+put currentImageArray["3"] into currentAltArray
+put "Forest" into currentAltArray["Title"]
+put "A dense and lush wood, its trees and underbrush hiding secrets and dangers unknown." into currentAltArray["Description"]
+put currentAltArray into currentImageArray["3"]
+put currentImageArray into ThemeArray["0001_forest"]
+put ThemeArray into categoryArray["Forest"]
+set the Location_L of this stack to categoryArray
+
+
+
+put currentImageArray["4"] into currentAltArray
+put "Forest" into currentAltArray["Title"]
+put "A dense and tangled wilderness, where the trees are overgrown and the air is heavy with the weight of abandonment." into currentAltArray["Description"]
+put currentAltArray into currentImageArray["4"]
+put currentImageArray into ThemeArray["0001_forest"]
+put ThemeArray into categoryArray["Forest"]
+set the Location_L of this stack to categoryArray
 
 
 
 
-set the customPropertySet of this stack to empty-- end of script 
+set the customPropertySet of this stack to empty
+-- end of script @ Forest

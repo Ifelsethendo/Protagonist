@@ -1,0 +1,76 @@
+-- livecode script format produced by script handler OutputArraysToScriptFormat
+-- this dynamically loads into the editor and sets up 
+-- a custom property array database
+-- Thursday, January 12, 2023 6:22 PM
+-- Category: Location_L
+-- Theme: Mansion
+
+set the customPropertySet of this stack to Location_L
+set the Location_L of this stack to categoryArray
+
+put categoryArray["Mansion"] into ThemeArray
+-- image: 0001_Mansion.png
+put ThemeArray["0001_Mansion"] into currentImageArray
+put currentImageArray["5"] into currentAltArray
+put "Mansion" into currentAltArray["Title"]
+put "A grand and luxurious dwelling, home to the wealthy and powerful, or where the ghosts of its former occupants linger and haunt the living." into currentAltArray["Description"]
+put currentAltArray into currentImageArray["5"]
+put currentImageArray into ThemeArray["0001_Mansion"]
+put ThemeArray into categoryArray["Mansion"]
+set the Location_L of this stack to categoryArray
+
+
+
+put currentImageArray["6"] into currentAltArray
+put "Mansion" into currentAltArray["Title"]
+put "A grand and luxurious dwelling, home to the wealthy and powerful." into currentAltArray["Description"]
+put currentAltArray into currentImageArray["6"]
+put currentImageArray into ThemeArray["0001_Mansion"]
+put ThemeArray into categoryArray["Mansion"]
+set the Location_L of this stack to categoryArray
+
+
+
+put currentImageArray["1"] into currentAltArray
+put "Mansion" into currentAltArray["Title"]
+put "A grand and luxurious dwelling, once home to the wealthy and powerful, where the walls are crumbling and the windows are broken and the air is thick with the stench of decay." into currentAltArray["Description"]
+put currentAltArray into currentImageArray["1"]
+put currentImageArray into ThemeArray["0001_Mansion"]
+put ThemeArray into categoryArray["Mansion"]
+set the Location_L of this stack to categoryArray
+
+
+
+put currentImageArray["2"] into currentAltArray
+put "Mansion" into currentAltArray["Title"]
+put "A grand and luxurious dwelling, home to the wealthy and powerful, or where the ghosts of its former occupants linger and haunt the living." into currentAltArray["Description"]
+put currentAltArray into currentImageArray["2"]
+put currentImageArray into ThemeArray["0001_Mansion"]
+put ThemeArray into categoryArray["Mansion"]
+set the Location_L of this stack to categoryArray
+
+
+
+put currentImageArray["3"] into currentAltArray
+put "Mansion" into currentAltArray["Title"]
+put "A grand and luxurious dwelling, home to the wealthy and powerful." into currentAltArray["Description"]
+put currentAltArray into currentImageArray["3"]
+put currentImageArray into ThemeArray["0001_Mansion"]
+put ThemeArray into categoryArray["Mansion"]
+set the Location_L of this stack to categoryArray
+
+
+
+put currentImageArray["4"] into currentAltArray
+put "Mansion" into currentAltArray["Title"]
+put "A grand and luxurious dwelling, once home to the wealthy and powerful, where the walls are crumbling and the windows are broken and the air is thick with the stench of decay." into currentAltArray["Description"]
+put currentAltArray into currentImageArray["4"]
+put currentImageArray into ThemeArray["0001_Mansion"]
+put ThemeArray into categoryArray["Mansion"]
+set the Location_L of this stack to categoryArray
+
+
+
+
+set the customPropertySet of this stack to empty
+-- end of script @ Mansion

@@ -1,0 +1,76 @@
+-- livecode script format produced by script handler OutputArraysToScriptFormat
+-- this dynamically loads into the editor and sets up 
+-- a custom property array database
+-- Thursday, January 12, 2023 6:22 PM
+-- Category: Location_L
+-- Theme: Library
+
+set the customPropertySet of this stack to Location_L
+set the Location_L of this stack to categoryArray
+
+put categoryArray["Library"] into ThemeArray
+-- image: 0001_Library.png
+put ThemeArray["0001_Library"] into currentImageArray
+put currentImageArray["5"] into currentAltArray
+put "Library" into currentAltArray["Title"]
+put "A grand and well-stocked repository of knowledge and learning, filled with books and resources for all to use, or where forbidden and dangerous knowledge is hidden among the shelves." into currentAltArray["Description"]
+put currentAltArray into currentImageArray["5"]
+put currentImageArray into ThemeArray["0001_Library"]
+put ThemeArray into categoryArray["Library"]
+set the Location_L of this stack to categoryArray
+
+
+
+put currentImageArray["6"] into currentAltArray
+put "Library" into currentAltArray["Title"]
+put "A grand and well-stocked repository of knowledge and learning, filled with books and resources for all to use." into currentAltArray["Description"]
+put currentAltArray into currentImageArray["6"]
+put currentImageArray into ThemeArray["0001_Library"]
+put ThemeArray into categoryArray["Library"]
+set the Location_L of this stack to categoryArray
+
+
+
+put currentImageArray["1"] into currentAltArray
+put "Library" into currentAltArray["Title"]
+put "A grand and imposing structure, filled with rows upon rows of books and manuscripts, where the walls are peeling and the air is thick with the stench of decay." into currentAltArray["Description"]
+put currentAltArray into currentImageArray["1"]
+put currentImageArray into ThemeArray["0001_Library"]
+put ThemeArray into categoryArray["Library"]
+set the Location_L of this stack to categoryArray
+
+
+
+put currentImageArray["2"] into currentAltArray
+put "Library" into currentAltArray["Title"]
+put "A grand and well-stocked repository of knowledge and learning, filled with books and resources for all to use, or where forbidden and dangerous knowledge is hidden among the shelves." into currentAltArray["Description"]
+put currentAltArray into currentImageArray["2"]
+put currentImageArray into ThemeArray["0001_Library"]
+put ThemeArray into categoryArray["Library"]
+set the Location_L of this stack to categoryArray
+
+
+
+put currentImageArray["3"] into currentAltArray
+put "Library" into currentAltArray["Title"]
+put "A grand and well-stocked repository of knowledge and learning, filled with books and resources for all to use." into currentAltArray["Description"]
+put currentAltArray into currentImageArray["3"]
+put currentImageArray into ThemeArray["0001_Library"]
+put ThemeArray into categoryArray["Library"]
+set the Location_L of this stack to categoryArray
+
+
+
+put currentImageArray["4"] into currentAltArray
+put "Library" into currentAltArray["Title"]
+put "A grand and imposing structure, filled with rows upon rows of books and manuscripts, where the walls are peeling and the air is thick with the stench of decay." into currentAltArray["Description"]
+put currentAltArray into currentImageArray["4"]
+put currentImageArray into ThemeArray["0001_Library"]
+put ThemeArray into categoryArray["Library"]
+set the Location_L of this stack to categoryArray
+
+
+
+
+set the customPropertySet of this stack to empty
+-- end of script @ Library

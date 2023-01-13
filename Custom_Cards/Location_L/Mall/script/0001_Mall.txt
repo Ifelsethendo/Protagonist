@@ -1,0 +1,76 @@
+-- livecode script format produced by script handler OutputArraysToScriptFormat
+-- this dynamically loads into the editor and sets up 
+-- a custom property array database
+-- Thursday, January 12, 2023 6:22 PM
+-- Category: Location_L
+-- Theme: Mall
+
+set the customPropertySet of this stack to Location_L
+set the Location_L of this stack to categoryArray
+
+put categoryArray["Mall"] into ThemeArray
+-- image: 0001_Mall.png
+put ThemeArray["0001_Mall"] into currentImageArray
+put currentImageArray["5"] into currentAltArray
+put "Mall" into currentAltArray["Title"]
+put "A bustling and crowded shopping center, filled with stores and restaurants and offering a wide variety of goods and services, or where the spirits of former patrons and employees roam the aisles and corridors." into currentAltArray["Description"]
+put currentAltArray into currentImageArray["5"]
+put currentImageArray into ThemeArray["0001_Mall"]
+put ThemeArray into categoryArray["Mall"]
+set the Location_L of this stack to categoryArray
+
+
+
+put currentImageArray["6"] into currentAltArray
+put "Mall" into currentAltArray["Title"]
+put "A bustling and crowded shopping center, filled with stores and restaurants and offering a wide variety of goods and services." into currentAltArray["Description"]
+put currentAltArray into currentImageArray["6"]
+put currentImageArray into ThemeArray["0001_Mall"]
+put ThemeArray into categoryArray["Mall"]
+set the Location_L of this stack to categoryArray
+
+
+
+put currentImageArray["1"] into currentAltArray
+put "Mall" into currentAltArray["Title"]
+put "A large and bustling complex, filled with stores and restaurants and other amenities, where the floors are sticky and the air is thick with the stench of decay." into currentAltArray["Description"]
+put currentAltArray into currentImageArray["1"]
+put currentImageArray into ThemeArray["0001_Mall"]
+put ThemeArray into categoryArray["Mall"]
+set the Location_L of this stack to categoryArray
+
+
+
+put currentImageArray["2"] into currentAltArray
+put "Mall" into currentAltArray["Title"]
+put "A bustling and crowded shopping center, filled with stores and restaurants and offering a wide variety of goods and services, or where the spirits of former patrons and employees roam the aisles and corridors." into currentAltArray["Description"]
+put currentAltArray into currentImageArray["2"]
+put currentImageArray into ThemeArray["0001_Mall"]
+put ThemeArray into categoryArray["Mall"]
+set the Location_L of this stack to categoryArray
+
+
+
+put currentImageArray["3"] into currentAltArray
+put "Mall" into currentAltArray["Title"]
+put "A bustling and crowded shopping center, filled with stores and restaurants and offering a wide variety of goods and services." into currentAltArray["Description"]
+put currentAltArray into currentImageArray["3"]
+put currentImageArray into ThemeArray["0001_Mall"]
+put ThemeArray into categoryArray["Mall"]
+set the Location_L of this stack to categoryArray
+
+
+
+put currentImageArray["4"] into currentAltArray
+put "Mall" into currentAltArray["Title"]
+put "A large and bustling complex, filled with stores and restaurants and other amenities, where the floors are sticky and the air is thick with the stench of decay." into currentAltArray["Description"]
+put currentAltArray into currentImageArray["4"]
+put currentImageArray into ThemeArray["0001_Mall"]
+put ThemeArray into categoryArray["Mall"]
+set the Location_L of this stack to categoryArray
+
+
+
+
+set the customPropertySet of this stack to empty
+-- end of script @ Mall

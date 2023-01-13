@@ -1,0 +1,76 @@
+-- livecode script format produced by script handler OutputArraysToScriptFormat
+-- this dynamically loads into the editor and sets up 
+-- a custom property array database
+-- Thursday, January 12, 2023 6:22 PM
+-- Category: Location_L
+-- Theme: Hospital
+
+set the customPropertySet of this stack to Location_L
+set the Location_L of this stack to categoryArray
+
+put categoryArray["Hospital"] into ThemeArray
+-- image: 0001_Hospital.png
+put ThemeArray["0001_Hospital"] into currentImageArray
+put currentImageArray["5"] into currentAltArray
+put "Hospital" into currentAltArray["Title"]
+put "A bustling and well-equipped medical center, dedicated to the healing and care of the sick and injured, or where the spirits of the deceased linger in the rooms and halls." into currentAltArray["Description"]
+put currentAltArray into currentImageArray["5"]
+put currentImageArray into ThemeArray["0001_Hospital"]
+put ThemeArray into categoryArray["Hospital"]
+set the Location_L of this stack to categoryArray
+
+
+
+put currentImageArray["6"] into currentAltArray
+put "Hospital" into currentAltArray["Title"]
+put "A bustling and well-equipped medical center, dedicated to the healing and care of the sick and injured." into currentAltArray["Description"]
+put currentAltArray into currentImageArray["6"]
+put currentImageArray into ThemeArray["0001_Hospital"]
+put ThemeArray into categoryArray["Hospital"]
+set the Location_L of this stack to categoryArray
+
+
+
+put currentImageArray["1"] into currentAltArray
+put "Hospital" into currentAltArray["Title"]
+put "A large and well-equipped medical facility, where the air is thick with the stench of greed and corruption." into currentAltArray["Description"]
+put currentAltArray into currentImageArray["1"]
+put currentImageArray into ThemeArray["0001_Hospital"]
+put ThemeArray into categoryArray["Hospital"]
+set the Location_L of this stack to categoryArray
+
+
+
+put currentImageArray["2"] into currentAltArray
+put "Hospital" into currentAltArray["Title"]
+put "A bustling and well-equipped medical center, dedicated to the healing and care of the sick and injured, or where the spirits of the deceased linger in the rooms and halls." into currentAltArray["Description"]
+put currentAltArray into currentImageArray["2"]
+put currentImageArray into ThemeArray["0001_Hospital"]
+put ThemeArray into categoryArray["Hospital"]
+set the Location_L of this stack to categoryArray
+
+
+
+put currentImageArray["3"] into currentAltArray
+put "Hospital" into currentAltArray["Title"]
+put "A bustling and well-equipped medical center, dedicated to the healing and care of the sick and injured." into currentAltArray["Description"]
+put currentAltArray into currentImageArray["3"]
+put currentImageArray into ThemeArray["0001_Hospital"]
+put ThemeArray into categoryArray["Hospital"]
+set the Location_L of this stack to categoryArray
+
+
+
+put currentImageArray["4"] into currentAltArray
+put "Hospital" into currentAltArray["Title"]
+put "A large and well-equipped medical facility, where the air is thick with the stench of greed and corruption." into currentAltArray["Description"]
+put currentAltArray into currentImageArray["4"]
+put currentImageArray into ThemeArray["0001_Hospital"]
+put ThemeArray into categoryArray["Hospital"]
+set the Location_L of this stack to categoryArray
+
+
+
+
+set the customPropertySet of this stack to empty
+-- end of script @ Hospital

@@ -1,0 +1,76 @@
+-- livecode script format produced by script handler OutputArraysToScriptFormat
+-- this dynamically loads into the editor and sets up 
+-- a custom property array database
+-- Thursday, January 12, 2023 6:22 PM
+-- Category: Location_L
+-- Theme: Hallway
+
+set the customPropertySet of this stack to Location_L
+set the Location_L of this stack to categoryArray
+
+put categoryArray["Hallway"] into ThemeArray
+-- image: 0001_Hallway.png
+put ThemeArray["0001_Hallway"] into currentImageArray
+put currentImageArray["5"] into currentAltArray
+put "Hallway" into currentAltArray["Title"]
+put "A long and winding corridor, connecting the various rooms and spaces of a building, or leading to a never-ending labyrinth of horrors." into currentAltArray["Description"]
+put currentAltArray into currentImageArray["5"]
+put currentImageArray into ThemeArray["0001_Hallway"]
+put ThemeArray into categoryArray["Hallway"]
+set the Location_L of this stack to categoryArray
+
+
+
+put currentImageArray["6"] into currentAltArray
+put "Hallway" into currentAltArray["Title"]
+put "A long and winding corridor, connecting the various rooms and spaces of a building." into currentAltArray["Description"]
+put currentAltArray into currentImageArray["6"]
+put currentImageArray into ThemeArray["0001_Hallway"]
+put ThemeArray into categoryArray["Hallway"]
+set the Location_L of this stack to categoryArray
+
+
+
+put currentImageArray["1"] into currentAltArray
+put "Hallway" into currentAltArray["Title"]
+put "A long and narrow corridor, lined with doors and connecting different areas of a building, where the walls are peeling and the air is thick with the stench of decay." into currentAltArray["Description"]
+put currentAltArray into currentImageArray["1"]
+put currentImageArray into ThemeArray["0001_Hallway"]
+put ThemeArray into categoryArray["Hallway"]
+set the Location_L of this stack to categoryArray
+
+
+
+put currentImageArray["2"] into currentAltArray
+put "Hallway" into currentAltArray["Title"]
+put "A long and winding corridor, connecting the various rooms and spaces of a building, or leading to a never-ending labyrinth of horrors." into currentAltArray["Description"]
+put currentAltArray into currentImageArray["2"]
+put currentImageArray into ThemeArray["0001_Hallway"]
+put ThemeArray into categoryArray["Hallway"]
+set the Location_L of this stack to categoryArray
+
+
+
+put currentImageArray["3"] into currentAltArray
+put "Hallway" into currentAltArray["Title"]
+put "A long and winding corridor, connecting the various rooms and spaces of a building." into currentAltArray["Description"]
+put currentAltArray into currentImageArray["3"]
+put currentImageArray into ThemeArray["0001_Hallway"]
+put ThemeArray into categoryArray["Hallway"]
+set the Location_L of this stack to categoryArray
+
+
+
+put currentImageArray["4"] into currentAltArray
+put "Hallway" into currentAltArray["Title"]
+put "A long and narrow corridor, lined with doors and connecting different areas of a building, where the walls are peeling and the air is thick with the stench of decay." into currentAltArray["Description"]
+put currentAltArray into currentImageArray["4"]
+put currentImageArray into ThemeArray["0001_Hallway"]
+put ThemeArray into categoryArray["Hallway"]
+set the Location_L of this stack to categoryArray
+
+
+
+
+set the customPropertySet of this stack to empty
+-- end of script @ Hallway

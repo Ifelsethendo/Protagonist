@@ -1,0 +1,76 @@
+-- livecode script format produced by script handler OutputArraysToScriptFormat
+-- this dynamically loads into the editor and sets up 
+-- a custom property array database
+-- Thursday, January 12, 2023 6:22 PM
+-- Category: Location_L
+-- Theme: Hotel
+
+set the customPropertySet of this stack to Location_L
+set the Location_L of this stack to categoryArray
+
+put categoryArray["Hotel"] into ThemeArray
+-- image: 0001_Hotel.png
+put ThemeArray["0001_Hotel"] into currentImageArray
+put currentImageArray["5"] into currentAltArray
+put "Hotel" into currentAltArray["Title"]
+put "A grand and luxurious establishment, offering comfortable accommodations and amenities to travelers and vacationers, or where the ghosts of former guests linger and haunt the living." into currentAltArray["Description"]
+put currentAltArray into currentImageArray["5"]
+put currentImageArray into ThemeArray["0001_Hotel"]
+put ThemeArray into categoryArray["Hotel"]
+set the Location_L of this stack to categoryArray
+
+
+
+put currentImageArray["6"] into currentAltArray
+put "Hotel" into currentAltArray["Title"]
+put "A grand and luxurious establishment, offering comfortable accommodations and amenities to travelers and vacationers." into currentAltArray["Description"]
+put currentAltArray into currentImageArray["6"]
+put currentImageArray into ThemeArray["0001_Hotel"]
+put ThemeArray into categoryArray["Hotel"]
+set the Location_L of this stack to categoryArray
+
+
+
+put currentImageArray["1"] into currentAltArray
+put "Hotel" into currentAltArray["Title"]
+put "A grand and luxurious lodging, where the carpets are stained and the windows are dirty and the air is thick with the stench of decay." into currentAltArray["Description"]
+put currentAltArray into currentImageArray["1"]
+put currentImageArray into ThemeArray["0001_Hotel"]
+put ThemeArray into categoryArray["Hotel"]
+set the Location_L of this stack to categoryArray
+
+
+
+put currentImageArray["2"] into currentAltArray
+put "Hotel" into currentAltArray["Title"]
+put "A grand and luxurious establishment, offering comfortable accommodations and amenities to travelers and vacationers, or where the ghosts of former guests linger and haunt the living." into currentAltArray["Description"]
+put currentAltArray into currentImageArray["2"]
+put currentImageArray into ThemeArray["0001_Hotel"]
+put ThemeArray into categoryArray["Hotel"]
+set the Location_L of this stack to categoryArray
+
+
+
+put currentImageArray["3"] into currentAltArray
+put "Hotel" into currentAltArray["Title"]
+put "A grand and luxurious establishment, offering comfortable accommodations and amenities to travelers and vacationers." into currentAltArray["Description"]
+put currentAltArray into currentImageArray["3"]
+put currentImageArray into ThemeArray["0001_Hotel"]
+put ThemeArray into categoryArray["Hotel"]
+set the Location_L of this stack to categoryArray
+
+
+
+put currentImageArray["4"] into currentAltArray
+put "Hotel" into currentAltArray["Title"]
+put "A grand and luxurious lodging, where the carpets are stained and the windows are dirty and the air is thick with the stench of decay." into currentAltArray["Description"]
+put currentAltArray into currentImageArray["4"]
+put currentImageArray into ThemeArray["0001_Hotel"]
+put ThemeArray into categoryArray["Hotel"]
+set the Location_L of this stack to categoryArray
+
+
+
+
+set the customPropertySet of this stack to empty
+-- end of script @ Hotel

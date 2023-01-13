@@ -1,0 +1,56 @@
+-- livecode script format produced by script handler OutputArraysToScriptFormat
+-- this dynamically loads into the editor and sets up 
+-- a custom property array database
+-- Thursday, January 12, 2023 6:22 PM
+-- Category: Location_L
+-- Theme: River
+
+set the customPropertySet of this stack to Location_L
+set the Location_L of this stack to categoryArray
+
+put categoryArray["River"] into ThemeArray
+-- image: 0001_River.png
+put ThemeArray["0001_River"] into currentImageArray
+put currentImageArray["1"] into currentAltArray
+put "River" into currentAltArray["Title"]
+put "A wide and rushing body of water, where the banks are overgrown and the air is heavy with the weight of abandonment." into currentAltArray["Description"]
+put currentAltArray into currentImageArray["1"]
+put currentImageArray into ThemeArray["0001_River"]
+put ThemeArray into categoryArray["River"]
+set the Location_L of this stack to categoryArray
+
+
+
+put currentImageArray["2"] into currentAltArray
+put "River" into currentAltArray["Title"]
+put "A swift and flowing body of water, winding its way through the landscape, or where the spirits of drowned victims linger and haunt the living." into currentAltArray["Description"]
+put currentAltArray into currentImageArray["2"]
+put currentImageArray into ThemeArray["0001_River"]
+put ThemeArray into categoryArray["River"]
+set the Location_L of this stack to categoryArray
+
+
+
+put currentImageArray["3"] into currentAltArray
+put "River" into currentAltArray["Title"]
+put "A wide and rushing body of water, where the banks are overgrown and the air is heavy with the weight of abandonment." into currentAltArray["Description"]
+put currentAltArray into currentImageArray["3"]
+put currentImageArray into ThemeArray["0001_River"]
+put ThemeArray into categoryArray["River"]
+set the Location_L of this stack to categoryArray
+
+
+
+put currentImageArray["4"] into currentAltArray
+put "River" into currentAltArray["Title"]
+put "A swift and flowing body of water, winding its way through the landscape, or where the spirits of drowned victims linger and haunt the living." into currentAltArray["Description"]
+put currentAltArray into currentImageArray["4"]
+put currentImageArray into ThemeArray["0001_River"]
+put ThemeArray into categoryArray["River"]
+set the Location_L of this stack to categoryArray
+
+
+
+
+set the customPropertySet of this stack to empty
+-- end of script @ River
